@@ -12,9 +12,11 @@ This is just another time-tracking app. It's a simple app that allows you to tra
   - Add Project Routes
   - Add User Routes
   - Add Client Routes
+  - Add HATEOAS
+  - ~~Add Prisma~~
 - Postgress
-  - Add DB
-  - Add Migrations
+  - ~~Add DB~~
+  - ~~Add Migrations~~
   - Add Seeding
 - Tests
 - React Frontend
