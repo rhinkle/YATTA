@@ -6,18 +6,15 @@ This is just another time-tracking app. It's a simple app that allows you to tra
 
 ### TODO
 
-[x] Fastify API
-[] React frontend
-[] Postgress
-[] Tests
-[] Authentication
-[] Authorization
-[] User management
-[] Project management
-[] Time tracking
-[] Reporting
-[] Notifications
-[] Offline mode
-[] Backup
-[] Export
-[] Import
+- Fastify API
+  - ~~Add Root & Health Check~~
+  - Add Time Tracking Routes
+  - Add Project Routes
+  - Add User Routes
+  - Add Client Routes
+- Postgress
+  - Add DB
+  - Add Migrations
+  - Add Seeding
+- Tests
+- React Frontend
