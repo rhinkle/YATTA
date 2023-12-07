@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prime:rest": "prisma migrate reset",
     "prime": "prisma migrate dev",
     "prime:fmt": "prisma format",
     "fmt": "prettier . --write",
     "start": "nodemon"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   },
   "keywords": [],
   "author": "Ryan Hinkle",
